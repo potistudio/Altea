@@ -1,0 +1,26 @@
+@use "./variables" as var;
+
+.Window-Frame {
+	-webkit-app-region: drag;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: var.$window_frame_height;
+	border-radius: 4px 4px 0 0;
+	border: solid var.$border;
+	border-width: 1px 1px 0 1px;
+	background-color: var.$white;
+}
+
+.Window-Content {
+	position: absolute;
+	top: var.$window_frame_height;
+	left: 0;
+	width: 100%;
+	height: calc(100% - var.$window_frame_height);
+	border-radius: 0 0 4px 4px;
+	border: solid var.$border;
+	border-width: 0 1px 1px 1px;
+	background-color: var.$white;
+}

@@ -1,0 +1,27 @@
+{
+  "name": "altea",
+  "version": "1.0.0",
+  "description": "A Full Customizable Text Editor",
+  "main": "./src/js/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electronmon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/potistudio/Altea.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "POTI-Studio",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/potistudio/Altea/issues"
+  },
+  "homepage": "https://github.com/potistudio/Altea#readme",
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electronmon": "^2.0.2"
+  }
+}
